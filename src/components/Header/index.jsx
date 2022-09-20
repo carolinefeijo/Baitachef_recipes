@@ -1,7 +1,6 @@
 import React from 'react'
 import './style.css'
 import logo from '../../assets/img/logo.png';
-import login from '../../assets/img/login.png'
 
 export default function Header() {
     return (
@@ -9,20 +8,19 @@ export default function Header() {
 
             <div className='logo-container'>
                 <img className='logo' src={logo} alt='falha logo'></img>
-                <h2 className='title-logo-red'>Baita</h2>
+                <h2 className='title-logo-red' >  Baita</h2>
                 <h2 className='title-logo-green'>chef</h2>
+
             </div>
 
             <div className='container-align '>
-                <a className='title-section'>Saúdavel</a>
-                <a className='title-section'>Salgados</a>
-                <a className='title-section'>Doces</a>
-                <a className='title-section'>Rápidos</a>
 
-                <div className='button-login'>
-                <img className='login-user' src={login} alt='falha logo'></img>
+                <a className='title-section' >Saúdavel</a>
+                <a className='title-section' >Salgados</a>
+                <a className='title-section' >Doces</a>
+                <a className='title-section' >Rápidos</a>
 
-                </div>
+
             </div>
 
 
