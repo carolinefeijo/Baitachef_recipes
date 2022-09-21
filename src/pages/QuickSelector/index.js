@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function QuickSelector() {
   return (
-    <div>ola estou nos rapidos</div>
+    <div>
+      <h1>ola estou nos rapidos</h1>
+      
+    </div>
   )
 }

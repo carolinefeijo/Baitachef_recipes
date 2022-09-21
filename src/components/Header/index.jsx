@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import logo from '../../assets/img/logo.png';
 
+
 export default function Header() {
     return (
         <div className='container'>
@@ -15,10 +16,10 @@ export default function Header() {
 
             <div className='container-align '>
 
-                <a className='title-section' >Saúdavel</a>
-                <a className='title-section' >Salgados</a>
-                <a className='title-section' >Doces</a>
-                <a className='title-section' >Rápidos</a>
+                <a className='title-section' href='/HealthySelector' >Saúdavel</a>
+                <a className='title-section' href='/SelectorSalgado' >Salgados</a>
+                <a className='title-section' href='/CandySelector'>Doces</a>
+                <a className='title-section' href='/QuickSelector' >Rápidos</a>
 
 
             </div>

@@ -1,13 +1,34 @@
 import './App.css';
-import Header from '../src/components/Header';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+import Home from "./pages/Home";
+import HealthySelector from './pages/HealthySelector';
+import SelectorSalgado from './pages/SelectorSalgado';
+import CandySelector from './pages/CandySelector';
+import QuickSelector from './pages/QuickSelector';
+
+import Header from './components/Header';
+
+
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+      </div >
+
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/CandySelector" element={<CandySelector />} />
+        <Route path="/HealthySelector" element={<HealthySelector />} />
+        <Route path="/QuickSelector" element={<QuickSelector />} />
+        <Route path="/SelectorSalgado" element={<SelectorSalgado />} />
+      </Routes>
+
+    </Router>
   );
 }
 
-export default App;
