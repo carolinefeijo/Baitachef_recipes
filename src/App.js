@@ -9,19 +9,21 @@ import SelectorSalgado from './pages/SelectorSalgado';
 import CandySelector from './pages/CandySelector';
 import QuickSelector from './pages/QuickSelector';
 
-import Header from './components/Header';
+
+import NavBar from './components/NavBar.js';
 
 
 export default function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <NavBar />
+        
       </div >
 
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/CandySelector" element={<CandySelector />} />
         <Route path="/HealthySelector" element={<HealthySelector />} />
         <Route path="/QuickSelector" element={<QuickSelector />} />

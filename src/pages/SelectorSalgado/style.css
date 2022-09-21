@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.container {
+    display: flex;
+    background-color: rgb(154, 204, 73);
+    padding: 50px;
+    flex-direction: column;
+}
+
+.featured-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
