@@ -3,6 +3,7 @@ import './recipe.css'
 
 import moqueca from '../../assets/img/moqueca.png';
 import time from '../../assets/icon/time.png'
+import Button from '../Button';
 
 export default function RecipeCard() {
     return (
@@ -28,6 +29,8 @@ export default function RecipeCard() {
                         <div className='container-description-details'>
                             <p className='title-description-details'>Em um liquidificador, bata todos ingredientes até a textura ficar homogênea.</p>
                         </div>
+
+                        <Button />
 
                     </div>
 
