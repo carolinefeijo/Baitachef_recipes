@@ -3,7 +3,6 @@
 
 .container {
     display: flex;
-    background-color: rgb(212, 132, 27);
     padding: 50px;
     flex-direction: column;
 }

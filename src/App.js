@@ -9,7 +9,6 @@ import SelectorSalgado from './pages/SelectorSalgado';
 import CandySelector from './pages/CandySelector';
 import QuickSelector from './pages/QuickSelector';
 
-
 import NavBar from './components/NavBar.js';
 
 

@@ -3,14 +3,21 @@
 
 .container {
     display: flex;
-    background-color: aqua;
-    padding: 50px;
     flex-direction: column;
 }
 
-.featured-title {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    font-size: 26px;
+.container-title {
+    display: flex;
+    align-items: center;
 }
 
+.img-point-green {
+    width: 18px;
+    height: 18px;
+}
+
+.featured-title {
+    margin-left: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+}
