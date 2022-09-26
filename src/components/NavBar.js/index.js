@@ -6,7 +6,7 @@ import logo from '../../assets/img/logo.png';
 
 export default function NavBar() {
     return (
-        <nav className='navbar'>
+        <nav className='navbar'> 
             <div className='container-main'>
 
                 <div className='logo-container'>

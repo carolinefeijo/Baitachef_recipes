@@ -12,7 +12,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    margin-right: 6rem;
+
 }
 
 .logo-container {
@@ -48,12 +48,13 @@
 .container-selectores {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .title-selectores {
     text-decoration: none;
-    margin-right: 5rem;
+    margin: 20px;
     font-family: 'Quicksand', sans-serif;
     color: #696868;
-    cursor: pointer; 
+    cursor: pointer;
 }

@@ -11,16 +11,13 @@ import QuickSelector from './pages/QuickSelector';
 
 import NavBar from './components/NavBar.js';
 
-
 export default function App() {
   return (
     <Router>
       <div className="App">
         <NavBar />
-        
+
       </div >
-
-
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/CandySelector" element={<CandySelector />} />

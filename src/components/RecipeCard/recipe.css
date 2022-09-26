@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-
 .container-main {
     display: flex;
 }
@@ -8,7 +7,7 @@
 .container-recipe {
     display: flex;
     width: 760px;
-    margin-top: 50px;
+    margin-top: 30px;
     /* background-color: aqua; */
 }
 
@@ -41,7 +40,7 @@
     border-color: #f3f1f1;
     border-style: solid;
     border-end-end-radius: 10px;
-    border-top-right-radius:10px ;
+    border-top-right-radius: 10px;
 }
 
 .title-recipe {
@@ -87,10 +86,16 @@
 
 .container-description-details {
     align-items: center;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 15px;
+
 }
 
 .title-description-details {
+    max-width: 40ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 14px;
     margin: 14px;
     font-family: 'Quicksand', sans-serif;
