@@ -11,6 +11,7 @@
 
 .container-button {
     display: flex;
+    border: none;
     background-color: #63AA4A;
     width: 208px;
     align-items: center;

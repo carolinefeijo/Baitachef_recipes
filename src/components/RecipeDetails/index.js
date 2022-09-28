@@ -1,28 +1,15 @@
-import React from 'react'
+
+import { useParams } from 'react-router-dom';
 import './recipeDetails.css'
 
-import { fetchRecipeId } from '../../services/recipes'
-import { useEffect } from 'react'
-
-
-export default function RecipeDetails(props) {
-    console.log(props)
-
-    const HandlerId = async (id) => {
-        const data = await fetchRecipeId(id)
-
-    }
-
-
-    useEffect(() => {
-        HandlerId()
-
-    }, []);
-
+export default function RecipeDetails() {
+   
+    const { id } = useParams();
+    console.log( id )
     return (
         <div className='container-recipeDetails'>
 
-            <h2>RECIPE DETAILS</h2>
+            <h1>RECEITA N° : {id}</h1>
 
 
         </div>

@@ -25,7 +25,7 @@ export default function App() {
         <Route path="/HealthySelector" element={<HealthySelector />} />
         <Route path="/QuickSelector" element={<QuickSelector />} />
         <Route path="/SelectorSalgado" element={<SelectorSalgado />} />
-        <Route path="/RecipeDetails" element={<RecipeDetails />} />
+        <Route path="/RecipeDetails/:id" element={<RecipeDetails />} />
       </Routes>
 
     </Router>
