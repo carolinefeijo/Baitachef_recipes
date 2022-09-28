@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RecipeCard from '../../components/RecipeCard';
 
-import './style.css';
+import './home.css';
 
 import greenPoint from '../../assets/icon/greenPoint.png'
 
@@ -20,10 +20,13 @@ const Home = () => {
 
   const createRecipeUptade = async () => {
     fetchCreateRecipe(title)
+
+
   }
 
   useEffect(() => {
     UpdateRecipe()
+
   }, []);
 
   return (

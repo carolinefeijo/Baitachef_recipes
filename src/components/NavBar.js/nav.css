@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 .navbar {
     display: flex;
@@ -65,6 +64,7 @@
     text-decoration: none;
     margin: 20px;
     font-family: 'Quicksand', sans-serif;
-    color: #a50f0f;
+    font-weight: bold;
+    color: #fd0b0b;
     cursor: pointer;
 }

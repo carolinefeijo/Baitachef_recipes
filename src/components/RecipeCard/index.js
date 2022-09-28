@@ -3,9 +3,13 @@ import './recipe.css'
 
 import time from '../../assets/icon/time.png'
 import Button from '../Button';
+import { Link } from 'react-router-dom';
+import RecipeDetails from '../RecipeDetails';
+
 
 export default function RecipeCard({ recipe }) {
-    
+
+
     return (
         <div className='container-main'>
 
@@ -30,7 +34,9 @@ export default function RecipeCard({ recipe }) {
                             <p className='title-description-details'>{recipe.description} </p>
                         </div>
 
-                        <Button />
+                        <Link to="/RecipeDetails" params={recipe._id} element={<RecipeDetails />}>
+                            <Button />
+                        </Link>
 
                     </div>
 
@@ -38,6 +44,6 @@ export default function RecipeCard({ recipe }) {
 
             </div>
 
-        </div>
+        </div >
     )
 }

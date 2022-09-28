@@ -10,6 +10,7 @@ import CandySelector from './pages/CandySelector';
 import QuickSelector from './pages/QuickSelector';
 
 import NavBar from './components/NavBar.js';
+import RecipeDetails from './components/RecipeDetails';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/HealthySelector" element={<HealthySelector />} />
         <Route path="/QuickSelector" element={<QuickSelector />} />
         <Route path="/SelectorSalgado" element={<SelectorSalgado />} />
+        <Route path="/RecipeDetails" element={<RecipeDetails />} />
       </Routes>
 
     </Router>
