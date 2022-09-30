@@ -5,7 +5,7 @@ export const fetchRecipeHighlight = () => {
 }
 
 export const fetchRecipeId = (id) => {
-    return fetch('http://localhost:8000/id')
+    return fetch(`http://localhost:8000/recipe?id=${id}`)
         .then(response => response.json())
         .then(data => { return data })
 }

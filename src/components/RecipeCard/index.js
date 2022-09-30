@@ -31,7 +31,7 @@ export default function RecipeCard({ recipe }) {
                             <p className='title-description-details'>{recipe.description} </p>
                         </div>
 
-                        <Link recipe={recipe} to={`/RecipeDetails/id ${recipe._id}`}>
+                        <Link  to={`/RecipeDetails/${recipe._id}`}>
                             LER RECEITA
 
                         </Link>
